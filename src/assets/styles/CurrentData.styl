@@ -1,0 +1,179 @@
+  .modal-box
+    padding .3rem
+  .cur_con_wrapper
+      box-sizing border-box
+      // padding .23rem .1rem 0 .1rem
+      .cur_con
+          position relative
+          box-sizing border-box
+          margin 0 auto .4rem auto
+          padding .5rem .2rem 0.5rem .2rem
+          border 1px solid $blueBorder
+          box-shadow 0px 2px 5px $blueBorder
+          border-radius 0.08rem
+          width 96%
+          font-size 0.3rem
+          .header
+            display flex
+            margin-bottom .2rem
+            h2
+              font-weight bold
+              span 
+                font-weight normal
+                font-size 0.26rem
+          .charts
+            display flex
+            justify-content center
+            flex-flow column nowrap
+            .data
+              display flex
+              height 4rem
+              .chart
+                width 100%
+                height 100%
+            .tip_txt
+              padding-right 0.1rem
+              font-size 0.28rem
+              color #ccc
+              text-align right
+            .item_list
+              box-sizing border-box
+              display flex
+              justify-content space-around
+              flex-flow row nowrap
+              // flex-wrap wrap
+              margin-top .3rem
+              li
+                display flex
+                flex-flow column nowrap
+                align-items center
+                // width 2rem
+                // margin .3rem
+                text-align center
+                .value
+                  display flex
+                  flex-flow row nowrap
+                  justify-content space-around
+                  height .4rem
+                  margin-bottom .2rem
+                  &.red
+                    color $redText
+                  &.orange
+                    color $orangeText
+                  &.purple
+                    color $purpleText
+                  &.normal
+                    // color $blueText
+                  &.light-red
+                    color $lightRedText
+                  strong
+                    font-size 0.4rem
+                    font-weight bold
+                  i
+                    margin 0.14rem 0 0 0.02rem
+                    font-size 0.24rem
+              .title
+                font-size 0.26rem
+                color #707070
+          .assessment
+            margin .4rem 0
+            header
+              display flex
+              margin-bottom .2rem
+              h2
+                font-weight normal
+              .iconfont
+                margin -.06rem 0.25rem 0 .1rem
+                font-size 0.4rem
+            .assessment_list
+              display flex
+              justify-content space-around
+              margin .6rem 0
+              text-align center
+              .level
+                display flex
+                justify-content center
+                align-items center
+                margin-bottom .2rem
+                // height .7rem
+                &.red
+                  color $redText
+                &.orange
+                  color $orangeText
+                &.purple
+                  color $purpleText
+                &.normal
+                  color $blueText
+                &.light-red
+                  color $lightRedText
+                strong
+                  font-size 0.4rem
+          .read
+            header
+              display flex
+              // margin-bottom .4rem
+              margin .4rem 0
+              h2
+                font-weight normal
+              .iconfont
+                margin -.06rem 0.25rem 0 .1rem
+                font-size 0.4rem
+            .content
+              position relative
+              padding 0 0 .2rem 0
+              line-height .55rem
+              .mask
+                display flex
+                justify-content center
+                align-items center
+                position absolute
+                bottom 0
+                width 100%
+                height .7rem
+                &.hidden
+                  background rgba(255,255,255,.9)
+                &.show
+                  background rgba(255,255,255,1)
+                .iconfont
+                  margin-top .02rem
+                  display block
+                  font-size .48rem
+                  color #333
+              h3
+                margin-bottom .1rem
+                font-size .3rem
+                font-weight bold
+              .article
+                text-indent .6rem
+                text-align justify
+                color #707070
+                &.hidden
+                  height 1.4rem
+                  overflow hidden
+                &.show
+                  margin-bottom .7rem
+                  height auto
+                  overflow auto
+          .silder
+            position fixed
+            padding .1rem
+            bottom 4.5rem
+            right .1rem
+            border-radius .5rem
+            background-color #f7f7f7
+            box-shadow 0px 2px 15px #ddd
+            text-align center
+            .iconfont
+              display block
+              margin .17rem 0
+              color #ddd
+              font-size .5rem
+              &.tip
+                font-size .4rem
+          .iconfont
+              margin -.16rem 0.2rem 0 0
+              font-size 0.6rem
+              color $redText
+            h2
+              font-size 0.36rem
+              font-weight bold
